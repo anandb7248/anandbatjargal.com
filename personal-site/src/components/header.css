@@ -1,9 +1,14 @@
 .Header {
     position: fixed;
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
     z-index: 100;
-    background: black;
+    /* background: black; */
+}
+
+.HeaderScrolled {
+    background: rgba(3, 30, 87, 0.9);
+    padding: 10px 0;
 }
 
 .HeaderGroup {
@@ -14,13 +19,10 @@
     align-items: center;
     justify-items: center;
     font-family: 'Oswald', sans-serif;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.HeaderGroup a {
-    color: white;
-    font-weight: 500;
-    transition: 0.5s;
-}
+
 
 .HeaderGroup button {
     padding: 8px 20px;
@@ -33,18 +35,34 @@
     color: #03A4FF;
     font-weight: 600;
     border-radius: 15px;
-    transition: 0.5s;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderGroup button:hover {
     background: #03A4FF;
     color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    transform: translateY(-3px);
+    transform:  scale(1.2, 1.2) translateY(-3px);
 }
 
-.HeaderGroup a:hover {
-    transform: translateY(-5px);
+.HeaderGroup img {
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderGroup img:hover {
+    transform: scale(1.2, 1.2) translateY(-3px);
+}
+
+.HeaderGroup .text {
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: underline;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderGroup .text:hover {
+    transform: scale(1.4, 1.4) translateY(-5px);
 }
 
 @media (max-width: 817px) {
