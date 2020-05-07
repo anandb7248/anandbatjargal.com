@@ -1,0 +1,66 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+    background: black;
+}
+
+.HeaderGroup {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    justify-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.HeaderGroup a {
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.HeaderGroup button {
+    padding: 8px 20px;
+    border: none;
+    font-size: 18px;
+    background: white;
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+    cursor: pointer;
+    color: #03A4FF;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.HeaderGroup button:hover {
+    background: #03A4FF;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    transform: translateY(-3px);
+}
+
+.HeaderGroup a:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 817px) {
+    .Header {
+        padding: 10px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat(5,auto);
+    }
+
+    .HeaderGroup a:nth-child(3) {
+        display: none;
+    }
+
+    .HeaderGroup a:nth-child(6) {
+        display: none;
+    }
+}
