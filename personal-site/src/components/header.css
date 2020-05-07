@@ -22,8 +22,6 @@
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-
-
 .HeaderGroup button {
     padding: 8px 20px;
     border: none;

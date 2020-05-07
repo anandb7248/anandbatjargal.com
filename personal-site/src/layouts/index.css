@@ -28,7 +28,7 @@ a {
   padding: 150px 50px;
   opacity: 0;
   animation: HeroAnimation;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
