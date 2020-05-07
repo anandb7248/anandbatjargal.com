@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
+import icon from '../images/Icon.png'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -13,6 +14,8 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[
+        {rel: "shortcut icon", type: "image/png", href: `${icon}`}]}
     />
     <Header />
     {children()}

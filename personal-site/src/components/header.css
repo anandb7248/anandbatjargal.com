@@ -53,6 +53,7 @@
 
 .HeaderGroup .text {
     color: white;
+    font-size: 17px;
     font-weight: 500;
     transition: 0.5s;
     text-decoration: underline;
