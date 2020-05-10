@@ -37,7 +37,7 @@ class Header extends React.Component {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
           <div className='HeaderGroup'>
             <Link to="/"><img src={icon} height="65x"/></Link>
-            <Link className="text" to="/">About</Link>
+            <Link className="text" to="#about">About</Link>
             <Link className="text" to="/">Skills</Link>
             <Link className="text" to="/">Experience</Link>
             {/* <Link className="text" to="/">Projects</Link> */}
