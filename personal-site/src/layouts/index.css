@@ -28,9 +28,10 @@ a {
   padding: 150px 50px;
   opacity: 0;
   animation: HeroAnimation;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-delay: 1s;
 }
 
 .HeroGroup h1 {
