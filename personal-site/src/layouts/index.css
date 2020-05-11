@@ -14,7 +14,7 @@ a {
 .Hero {
   background: url('../images/san-francisco.jpg');
   background-size: cover;
-  height: 900px;
+  height: 1000px;
   margin: 0 auto;
 }
 
@@ -101,6 +101,18 @@ a {
   
   .bottom h4{
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1565px) {
+  .bottom {
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .bottom {
+    margin-top: 50%;
   }
 }
 
