@@ -15,7 +15,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 60px 0 0 0;
+    padding: 75px 0 0 0;
 `
 
 const Header = styled.p`
@@ -32,6 +32,11 @@ const Detail = styled.p`
     line-height: 1.45;
     font-size: 24px;
     padding: 25px;
+
+    @media (max-width: 817px) {
+        font-size: 18px;
+        padding: 35px;
+    }
 `
 
 const ContactLink = styled.a`
@@ -39,6 +44,7 @@ const ContactLink = styled.a`
 `
 
 const ContactButton = styled.button`
+    background-color: white;
     margin: 0 auto;
     padding: 25px 50px;
     font-size: 32px;
@@ -49,7 +55,6 @@ const ContactButton = styled.button`
     border: none;
     outline: none;
     cursor: pointer;
-
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 
     &:hover {
@@ -66,6 +71,7 @@ const Contact = () => {
             <Detail>I am a passionate programmer and problem solver. I am open to hearing about future opportunities 
             <br/>
             whether it be front-end, iOS, or full-stack.
+            <br/>
             <br/>
             Feel free to reach out to me if you have any questions or if you just want to say Hi!
             <br/>

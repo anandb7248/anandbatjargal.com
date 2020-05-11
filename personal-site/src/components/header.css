@@ -17,6 +17,7 @@
     animation: HeaderAnimation;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    opacity: 0;
     animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 

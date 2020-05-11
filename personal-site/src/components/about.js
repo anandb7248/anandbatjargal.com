@@ -13,15 +13,14 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 60px 0 0 0;
+    padding: 75px 0 0 0;
 `
 
 const ContentContainer = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(250px, 1fr) 1fr;
     justify-items: center;
     align-items: center;
-    margin: 0 50px 0 0;
 
     @media (max-width: 817px) {
         grid-template-columns: 1fr;
@@ -35,26 +34,29 @@ const ProfileImage = styled.div`
     background-size: cover;
     justify-self: end;
     align-self: start;
-    margin: 10px 100px 50px;
+    margin: 35px 70px;
 
     @media (max-width: 817px) {
         height: 200px;
         width: 200px;
         margin: 10px auto 10px;
+        justify-self: center;
+        align-self: center;
     }
 `
 
 const ProfileText = styled.p`
     color: white;
     font-size: 18px;
-    margin: 0 50px 25px 0;
     line-height: 1.6;
     justify-self: start;
     align-self: start;
+    padding: 10px 25px;
 
     @media (max-width: 817px) {
-        margin: 10px auto 25px;
-        padding: 25px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
     }
 `
 

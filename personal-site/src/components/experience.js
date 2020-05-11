@@ -18,7 +18,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 60px 0 0 0;
+    padding: 75px 0 0 0;
 `
 
 const ExperienceGroup = styled.div`
@@ -62,29 +62,44 @@ const Icon = styled.img`
 const Description = styled.div`
     align-self: start;
     justify-self: start;
-`
 
-const Headline = styled.div`
-    margin: 0 50px 0 10px;
-
-    @media(max-width: 700px){
-        margin: 0 25px;
+    @media(max-width: 925px){
+        align-self: center;
+        justify-self: center;
     }
 `
 
+const Headline = styled.div`
+    margin: 0 10px;
+
+    ${'' /* @media(max-width: 925px){
+        margin: 0 auto;
+    } */}
+`
+
 const Role = styled.h2`
-    padding: 0;
-    margin: 0 50px 0 10px;
+    margin: 0;
+
+    @media(max-width: 925px){
+        text-align: center;
+    }
 `
 
 const City = styled.h4`
-    padding: 0;
-    margin: 0 50px 0 10px;
+    margin: 0;
+
+    @media(max-width: 925px){
+        text-align: center;
+    }
 `
 
 const Bullets = styled.ul`
-    margin: 10px 50px 0 10px;
+    margin: 10px 0px;
     line-height: 1.8;
+
+    @media(max-width: 925px){
+        margin: 10px 50px;
+    }
 `
 
 const Entry = styled.li`

@@ -36,7 +36,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 60px 0 0 0;
+    padding: 75px 0 0 0;
 `
 
 const SkillsContainer = styled.div`
@@ -45,7 +45,6 @@ const SkillsContainer = styled.div`
     align-items: center;
     justify-items: center;
     row-gap: 50px;
-    padding: 0 25px 50px 25px;
 
     @media(max-width: 950px) {
         grid-template-columns: repeat(3, 1fr);
