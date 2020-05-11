@@ -34,14 +34,14 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+      <div className='Header'>
           <div className='HeaderGroup'>
-            <Link to="/"><img src={icon} height="65x"/></Link>
+            <Link to="/"><img src={icon} height="55x"/></Link>
             <Link className="text" to="#about">About</Link>
-            <Link className="text" to="/">Skills</Link>
-            <Link className="text" to="/">Experience</Link>
+            <Link className="text" to="#skills">Skills</Link>
+            <Link className="text" to="#experience">Experience</Link>
             {/* <Link className="text" to="/">Projects</Link> */}
-            <Link className="text" to="/">Contact</Link>
+            <Link className="text" to="#contact">Contact</Link>
             <a href={resumeFile} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
           </div>
         </div>

@@ -1,14 +1,8 @@
 .Header {
     position: fixed;
     width: 100%;
-    padding: 20px 0;
     z-index: 100;
-    /* background: black; */
-}
-
-.HeaderScrolled {
-    background: rgba(3, 30, 87, 0.9);
-    padding: 10px 0;
+    background: rgba(3, 30, 87, 0.8);
 }
 
 .HeaderGroup {

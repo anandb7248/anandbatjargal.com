@@ -21,6 +21,7 @@ const ContentContainer = styled.div`
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin: 0 50px 0 0;
 
     @media (max-width: 817px) {
         grid-template-columns: 1fr;
@@ -46,7 +47,7 @@ const ProfileImage = styled.div`
 const ProfileText = styled.p`
     color: white;
     font-size: 18px;
-    margin: 0 25px 25px 0;
+    margin: 0 50px 25px 0;
     line-height: 1.6;
     justify-self: start;
     align-self: start;
@@ -67,6 +68,16 @@ const About = () => {
                 Hello! I’m Anand, a software engineer based in San Francisco Bay Area. 
                 <br />
                 <br />
+                I was originally born in Ulaanbaatar, Mongolia 🇲🇳, but then moved to San Francisco 🌉 when I was 9 years old.
+                <br />
+                <br />
+                I graduated from City College of San Francisco in 2016 with a A.S. in Mathematics 🧮,
+                <br />
+                then transferred to California Polytechnic State University, San Luis Obispo 
+                <br />
+                (Cal Poly) to obtain a B.S. in Computer Science 👨‍💻in December 2018.
+                <br />
+                <br />
                 I enjoy learning the latest technologies and building software that bring value to users.
                 <br />
                 <br />
@@ -80,6 +91,9 @@ const About = () => {
                 I continually take online courses to improve my knowledge and skillsets as a software engineer,
                 <br />
                 as well as to apply what I learned with projects.
+                <br />
+                <br />
+                Please feel free to email me at anandb7248@gmail.com or connect with me on Linkedin. Thanks!
                 </ProfileText>
             </ContentContainer>
         </AboutSection>
