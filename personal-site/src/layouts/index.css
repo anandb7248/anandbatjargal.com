@@ -104,9 +104,9 @@ a {
   }
 }
 
-@media (min-width: 1565px) {
-  .bottom {
-    margin-top: 40%;
+@media (min-width: 1650px) {
+  .top {
+    margin-top: 50px;
   }
 }
 
