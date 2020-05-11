@@ -23,7 +23,7 @@ const Hero = () => {
                 <a href="https://www.linkedin.com/in/anandbatjargal/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="75px"/></a>
             </div>
             <div className="down">
-                <a href=""><img src={down} height="45px"/></a>
+                <a href="/#about"><img src={down} height="45px"/></a>
             </div>
         </div>
     </div>)

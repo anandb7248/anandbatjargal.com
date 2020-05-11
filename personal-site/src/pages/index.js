@@ -5,15 +5,17 @@ import Skills from '../components/skills'
 import Experience from '../components/experience'
 import Contact from '../components/contact'
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 const IndexPage = () => (
   <div id="top">
     <Header />
     <Hero />
-    <About/>
-    <Skills/>
-    <Experience/>
-    <Contact/>
+    <About />
+    <Skills />
+    <Experience />
+    <Contact />
+    <Footer />
   </div>
 )
 
