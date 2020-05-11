@@ -13,7 +13,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 25px;
+    padding: 60px 0 0 0;
 `
 
 const ContentContainer = styled.div`
@@ -58,10 +58,15 @@ const ProfileText = styled.p`
     }
 `
 
+const Emphasis = styled.em`
+    font-style: normal;
+    color: #03A4FF;
+`
+
 const About = () => {
     return(
-        <AboutSection >
-            <Title>About Me</Title>
+        <AboutSection id="about">
+            <Title >About Me</Title>
             <ContentContainer>
                 <ProfileImage />
                 <ProfileText>
@@ -71,19 +76,19 @@ const About = () => {
                 I was originally born in Ulaanbaatar, Mongolia 🇲🇳, but then moved to San Francisco 🌉 when I was 9 years old.
                 <br />
                 <br />
-                I graduated from City College of San Francisco in 2016 with a A.S. in Mathematics 🧮,
+                I graduated from <Emphasis>City College of San Francisco</Emphasis> on May 2016 with a Associate of Science in Mathematics 🧮,
                 <br />
-                then transferred to California Polytechnic State University, San Luis Obispo 
+                then transferred to <Emphasis>California Polytechnic State University, San Luis Obispo </Emphasis>
                 <br />
-                (Cal Poly) to obtain a B.S. in Computer Science 👨‍💻in December 2018.
+                to obtain a Bachelor of Science in Computer Science 👨‍💻on December 2018.
                 <br />
                 <br />
                 I enjoy learning the latest technologies and building software that bring value to users.
                 <br />
                 <br />
-                I want to build software products that make life easier and more efficient for users
+                I want to build software products that make life easier and more efficient
                 <br />
-                with everything that works just right with an emphasis on great intuitive design.
+                with everything that working just right with an emphasis on great intuitive design.
                 <br />
                 <br />
                 And I am a constant learner, 

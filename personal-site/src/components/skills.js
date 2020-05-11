@@ -36,7 +36,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 25px;
+    padding: 60px 0 0 0;
 `
 
 const SkillsContainer = styled.div`
@@ -77,7 +77,7 @@ const IconImage = styled.img`
 
 const Skills = () => {
     return(
-        <SkillsSection >
+        <SkillsSection id="skills">
             <Title>Skills</Title>
             <SkillsContainer>
                 <Clickable href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">

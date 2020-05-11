@@ -18,7 +18,7 @@ const Title = styled.h1`
     text-align: center;
     text-decoration: underline;
     margin: 0 0 25px;
-    padding: 25px;
+    padding: 60px 0 0 0;
 `
 
 const ExperienceGroup = styled.div`
@@ -94,7 +94,7 @@ const Entry = styled.li`
 
 const Experience = () => {
     return(
-        <ExperienceSection>
+        <ExperienceSection id="experience">
             <Title>Experience</Title>
             <ExperienceGroup>
                 <ExperienceEntry>

@@ -3,13 +3,17 @@ import Hero from '../components/hero'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Experience from '../components/experience'
+import Contact from '../components/contact'
+import Header from '../components/header'
 
 const IndexPage = () => (
-  <div>
+  <div id="top">
+    <Header />
     <Hero />
     <About/>
-    <Skills />
-    <Experience />
+    <Skills/>
+    <Experience/>
+    <Contact/>
   </div>
 )
 

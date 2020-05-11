@@ -19,7 +19,7 @@ const Hero = () => {
             </div>
             <div className="logos">
                 <a href="https://github.com/anandb7248" target="_blank" rel="noopener noreferrer"><img src={github} height="75px"/></a>
-                <a href = "mailto:anandb7248@gmail.com"><img src={email} height="75px"/></a>
+                <a href = "mailto:anandb7248@gmail.com" target="_blank"><img src={email} height="75px"/></a>
                 <a href="https://www.linkedin.com/in/anandbatjargal/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="75px"/></a>
             </div>
             <div className="down">
