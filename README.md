@@ -1,5 +1,6 @@
 <div align="center">
-  <h1 align="center">Personal Website - anandbatjargal.com</h1>
+  <h1 align="center">Personal Website -  <a href="https://www.anandbatjarga.com" target="_blank">anandbatjargal.com
+  </a></h1>
   <p align="center">Built with HTML, CSS, JavaScript, React, Gatsby and Netlify.</p>
  <div>
    
