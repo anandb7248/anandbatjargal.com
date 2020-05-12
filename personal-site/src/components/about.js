@@ -81,21 +81,21 @@ const About = () => {
                 I graduated from <Emphasis>City College of San Francisco</Emphasis> on May 2016 with a Associate of Science in Mathematics 🧮,
                 <br />
                 then transferred to <Emphasis>California Polytechnic State University, San Luis Obispo </Emphasis>
+                to obtain a Bachelor of Science in 
                 <br />
-                to obtain a Bachelor of Science in Computer Science 👨‍💻on December 2018.
+                Computer Science 👨‍💻on December 2018.
                 <br />
                 <br />
                 I enjoy learning the latest technologies and building software that bring value to users.
                 <br />
                 <br />
-                I want to build software products that make life easier and more efficient
+                I want to build software products that make life easier and more efficient with everything that working just right
                 <br />
-                with everything that working just right with an emphasis on great intuitive design.
+                 with an emphasis on great intuitive design.
                 <br />
                 <br />
-                And I am a constant learner, 
-                <br />
-                I continually take online courses to improve my knowledge and skillsets as a software engineer,
+                As a constant learner, I continually take online courses to improve my knowledge
+                 and skillsets as a software engineer,
                 <br />
                 as well as to apply what I learned with projects.
                 <br />

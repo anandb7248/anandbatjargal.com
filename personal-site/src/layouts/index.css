@@ -4,6 +4,8 @@ body {
   background: #031E57;
   margin: 0;
   -webkit-font-smoothing: antialiased;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 a {
@@ -13,7 +15,7 @@ a {
 .Hero {
   /* background: url('../images/san-francisco.jpg'); */
   /* background: url('../images/sf-city.jpg'); */
-  background: url('../images/city-3-compressor.jpg');
+  background-image: url('../images/city-3-compressor.jpg');
   /* background: url('../images/bridge.jpg'); */
   /* background: url('../images/city.jpg'); */
   background-size: cover;
@@ -91,6 +93,10 @@ a {
 }
 
 @media (max-width: 817px) {
+  .top {
+    margin-top: 50px;
+  }
+
   .HeroGroup h1 {
     font-weight: 700;
     font-size: 52px;
