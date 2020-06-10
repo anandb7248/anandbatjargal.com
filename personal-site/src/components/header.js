@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import Link from 'gatsby-link'
 import icon from '../images/Icon.png'
 import './header.css'
-import { renderStatic } from 'react-helmet'
 import resumeFile from '../resume/Anand_Batjargal_Resume.pdf'
 
 class Header extends React.Component {
@@ -44,7 +42,6 @@ class Header extends React.Component {
           <a href="/#about">About</a>
           <a href="/#skills">Skills</a>
           <a href="/#experience">Experience</a>
-          {/* <Link className="text" to="/">Projects</Link> */}
           <a href="/#contact">Contact</a>
           <a href={resumeFile} target="_blank" rel="noopener noreferrer">
             <button>Resume</button>
