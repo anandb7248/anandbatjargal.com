@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import '../layouts/index.css'
 import icon from '../images/Icon.png'
 
 if (typeof window !== "undefined") {
@@ -19,9 +19,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
       link={[
-        {rel: "shortcut icon", type: "image/png", href: `${icon}`}]}
+        { rel: "shortcut icon", type: "image/png", href: `${icon}` }]}
     />
-    {children()}
+    {children}
   </div>
 )
 
