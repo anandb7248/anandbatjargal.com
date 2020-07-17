@@ -44,7 +44,6 @@ class Header extends React.Component {
           <a href="/#about">About</a>
           <a href="/#skills">Skills</a>
           <a href="/#experience">Experience</a>
-          {/* <Link className="text" to="/">Projects</Link> */}
           <a href="/#contact">Contact</a>
           <a href={resumeFile} target="_blank" rel="noopener noreferrer">
             <button>Resume</button>

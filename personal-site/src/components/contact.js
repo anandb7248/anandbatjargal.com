@@ -72,7 +72,7 @@ const Contact = () => {
         I am a passionate programmer and problem solver. I am open to hearing
         about future opportunities
         <br />
-        whether it be iOS, React, React Native, or Full-Stack development.
+        whether it be iOS, React, React Native, or web development.
         <br />
         <br />
         Feel free to reach out to me if you have any questions or if you just

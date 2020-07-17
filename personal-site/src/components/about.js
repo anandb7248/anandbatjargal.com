@@ -74,10 +74,6 @@ const About = () => {
         <ProfileText>
           Hello! I’m Anand, a software engineer based in San Francisco Bay Area.
           <br />
-          <br />
-          I was originally born in Ulaanbaatar, Mongolia, but then moved to San
-          Francisco when I was 9 years old.
-          <br />
           <br />I graduated from{' '}
           <Emphasis>City College of San Francisco</Emphasis> on May 2016 with a
           Associate of Science in Mathematics,

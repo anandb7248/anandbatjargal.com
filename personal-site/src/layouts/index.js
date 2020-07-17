@@ -5,9 +5,9 @@ import Helmet from 'react-helmet'
 import './index.css'
 import icon from '../images/Icon.png'
 
-if (typeof window !== "undefined") {
+if (typeof window !== 'undefined') {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
+  require('smooth-scroll')('a[href*="#"]')
 }
 
 const Layout = ({ children, data }) => (
@@ -18,8 +18,7 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
-      link={[
-        {rel: "shortcut icon", type: "image/png", href: `${icon}`}]}
+      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${icon}` }]}
     />
     {children()}
   </div>

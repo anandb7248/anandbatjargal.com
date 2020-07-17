@@ -11,9 +11,9 @@ const IndexPage = () => (
   <div id="top">
     <Header />
     <Hero />
-    <About />
-    <Skills />
     <Experience />
+    <Skills />
+    <About />
     <Contact />
     <Footer />
   </div>

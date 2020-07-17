@@ -119,21 +119,26 @@ const Experience = () => {
 
           <Description>
             <Headline>
-              <Role>Software Application Engineer</Role>
+              <Role>Software Engineer</Role>
               <City>Pleasanton, California</City>
             </Headline>
             <Bullets>
               <Entry>
-                Assisted in the development of Change Location and Change
-                Manager chatbot features for Workday Assistant
+                Assisted in the frontend and backend development of Change
+                Location and Change Manager chatbot features for Workday
+                Assistant
               </Entry>
               <Entry>
                 Enhanced REST API retrieval, processing, and validations for
                 Workday Cloud Platform
               </Entry>
               <Entry>
-                Completed bug fixes for UI and backend processing for Change Job
-                feature
+                Completed bug fixes for UI and backend processing for the Change
+                Job business process
+              </Entry>
+              <Entry>
+                Collaborated and communicated with the Workday Assistant and
+                Machine Learning teams for iterative development
               </Entry>
             </Bullets>
           </Description>
@@ -145,13 +150,14 @@ const Experience = () => {
           </Clickable>
           <Description>
             <Headline>
-              <Role>Software Engineering Intern</Role>
+              <Role>Software Engineer</Role>
               <City>San Diego, California</City>
             </Headline>
             <Bullets>
               <Entry>
-                Used UIKit to implement reusable, scalable, and responsive UI
-                components that work across all Apple mobile devices{' '}
+                Used UIKit to implement scalable, reusable, and responsive UI
+                components that work across all Apple mobile devices from
+                iPhones to iPads
               </Entry>
               <Entry>
                 Developed Siri Shortcuts integration UI and voice prototype for
@@ -159,7 +165,8 @@ const Experience = () => {
               </Entry>
               <Entry>
                 Tracked load, view, and click data analytics to be viewed in
-                Splunk and Segment for new screens in the application
+                Splunk and Segment for new screens in the application and
+                wrapped feature flags with LaunchDarkly
               </Entry>
             </Bullets>
           </Description>
@@ -172,21 +179,23 @@ const Experience = () => {
           <Description>
             <Headline>
               <Role>
-                Instructional Student Assistant, CSC 436 Mobile App Development
+                Teaching Assistant (ISA), CSC 436 Mobile App Development
               </Role>
               <City>San Luis Obispo, California</City>
             </Headline>
             <Bullets>
               <Entry>
-                Assisted and graded 120+ students with their iOS mobile
-                application assignments and projects
+                Assisted and graded a total of 120+ students with their iOS
+                mobile application assignments and projects for a total 4
+                quarters
               </Entry>
               <Entry>
                 Accelerated students programming proficiency and knowledge of
-                Swift & UIKit
+                Swift, UIKit, and Xcode
               </Entry>
               <Entry>
-                Taught students using Apple’s IDE for iOS development, Xcode
+                Supported students by helping them troubleshoot bugs and
+                provided guidance on their final class projects
               </Entry>
             </Bullets>
           </Description>

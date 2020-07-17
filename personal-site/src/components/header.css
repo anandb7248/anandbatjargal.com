@@ -1,100 +1,102 @@
 .Header {
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    background: rgba(3, 30, 87, 0.9);
-    padding: 50px 0 0 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: rgba(3, 30, 87, 0.9);
+  padding: 50px 0 0 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 .HeaderGroup {
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(7, auto);
-    align-items: center;
-    justify-items: center;
-    font-family: 'Oswald', sans-serif;
-    animation: HeaderAnimation;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  justify-items: center;
+  animation: HeaderAnimation;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-delay: 2s;
 }
 
 .HeaderScrolled {
-    background: rgba(3, 30, 87, 0.8);
-    padding: 5px 0 0 0;
+  background: rgba(3, 30, 87, 0.8);
+  padding: 5px 0 0 0;
 }
 
 .HeaderGroup button {
-    padding: 8px 20px;
-    border: none;
-    font-size: 18px;
-    background: white;
-    font-family: 'Oswald', sans-serif;
-    outline: none;
-    cursor: pointer;
-    color: #03A4FF;
-    font-weight: 600;
-    border-radius: 15px;
-    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  padding: 8px 20px;
+  border: none;
+  font-size: 18px;
+  background: white;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+  cursor: pointer;
+  color: #03a4ff;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderGroup button:hover {
-    background: #03A4FF;
-    color: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    transform: translateY(-3px);
+  background: #03a4ff;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
 }
 
 .HeaderGroup img {
-    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderGroup img:hover {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .HeaderGroup a {
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
-    transition: 0.5s;
-    text-decoration: underline;
-    cursor: pointer;
-    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderGroup a:hover {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 817px) {
-    .Header {
-        padding: 10px 0;
-    }
+  .Header {
+    padding: 10px 0;
+  }
 
-    .HeaderGroup {
-        grid-template-columns: repeat(5,auto);
-    }
+  .HeaderGroup {
+    grid-template-columns: repeat(5, auto);
+  }
 
-    .HeaderGroup a:nth-child(3) {
-        display: none;
-    }
+  .HeaderGroup a:nth-child(3) {
+    display: none;
+  }
 
-    .HeaderGroup a:nth-child(6) {
-        display: none;
-    }
+  .HeaderGroup a:nth-child(6) {
+    display: none;
+  }
 }
 
 @keyframes HeaderAnimation {
-    0% {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
   }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

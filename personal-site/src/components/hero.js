@@ -40,7 +40,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="down">
-          <a href="/#about">
+          <a href="/#experience">
             <img src={down} height="45px" />
           </a>
         </div>
